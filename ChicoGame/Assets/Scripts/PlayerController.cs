@@ -4,15 +4,27 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float moveSpeed = 20f;
+    public float rotationSpeed = 30f;
 
-    // Update is called once per frame
     void Update()
     {
-        
+        // Movimento para frente (tecla W)
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        }
+
+        // Rotação à esquerda (tecla A)
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
+        }
+
+        // Rotação à direita (tecla D)
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+        }
     }
 }

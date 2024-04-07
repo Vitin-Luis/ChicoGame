@@ -18,13 +18,13 @@ public class PlayerController : MonoBehaviour
         // Rotação à esquerda (tecla A)
         if (Input.GetKey(KeyCode.A))
         {
-            transform.Rotate(Vector3.down, -rotationSpeed * Time.deltaTime);
+            transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
         }
 
         // Rotação à direita (tecla D)
         if (Input.GetKey(KeyCode.D))
         {
-            transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+            transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
         }
     }
 }

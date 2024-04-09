@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ProjectileTrajectoryRight : MonoBehaviour
+public class ProjectileTrajectory : MonoBehaviour
 {
     private Rigidbody Proj;
+    [SerializeField] GameObject Player;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,7 +14,7 @@ public class ProjectileTrajectoryRight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.right * 50f * Time.deltaTime);
+        transform.Translate(Vector3.up * 50f * Time.deltaTime);
     }
 
     void OnTriggerEnter()

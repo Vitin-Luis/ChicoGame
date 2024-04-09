@@ -8,19 +8,14 @@ public class PlayerController : MonoBehaviour
     public float maxSpeed = 30f;
     public float accelerationRate = 3f;
     public float deaccelerationRate = 5f;
-    private float currentSpeed = 0f;
+    public float currentSpeed = 0f;
     private float delayR = 5f;
     private float delayL = 5f;
 
-    [SerializeField] private GameObject CBallR;
-    [SerializeField] private GameObject CBallL;
+    [SerializeField] public GameObject[] firePointsR;
+    [SerializeField] public GameObject[] firePointsL;
 
-    [SerializeField] private GameObject Cannon1R;
-    [SerializeField] private GameObject Cannon2R;
-    [SerializeField] private GameObject Cannon3R;
-    [SerializeField] private GameObject Cannon1L;
-    [SerializeField] private GameObject Cannon2L;
-    [SerializeField] private GameObject Cannon3L;
+    [SerializeField] private GameObject CBall;
 
      
 
@@ -66,15 +61,23 @@ public class PlayerController : MonoBehaviour
 
     }
     void ShootLeft()
-    {   
-        Instantiate(CBallL, Cannon1L.transform.position, CBallL.transform.rotation);
-        Instantiate(CBallL, Cannon2L.transform.position, CBallL.transform.rotation);
-        Instantiate(CBallL, Cannon3L.transform.position, CBallL.transform.rotation);
+    {
+        foreach(GameObject fp in firePointsL)
+        {
+            Quaternion initialRotation = fp.transform.rotation;
+            fp.transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
+            GameObject C = Instantiate(CBall, fp.transform.position, fp.transform.rotation);
+            fp.transform.rotation = initialRotation;
+        }
     }
     void ShootRight()
     {
-        Instantiate(CBallR, Cannon1R.transform.position, CBallR.transform.rotation);
-        Instantiate(CBallR, Cannon2R.transform.position, CBallR.transform.rotation);
-        Instantiate(CBallR, Cannon3R.transform.position, CBallR.transform.rotation);
+        foreach (GameObject fp in firePointsR)
+        {
+            Quaternion initialRotation = fp.transform.rotation;
+            fp.transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
+            GameObject C = Instantiate(CBall, fp.transform.position, fp.transform.rotation);
+            fp.transform.rotation = initialRotation;
+        }
     }
 }

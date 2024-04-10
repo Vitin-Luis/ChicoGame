@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour
     public float currentSpeed = 0f;
     private float delayR = 5f;
     private float delayL = 5f;
-
+    public ParticleSystem flash;
     [SerializeField] public GameObject[] firePointsR;
     [SerializeField] public GameObject[] firePointsL;
 
@@ -67,6 +67,7 @@ public class PlayerController : MonoBehaviour
             Quaternion initialRotation = fp.transform.rotation;
             fp.transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
             GameObject C = Instantiate(CBall, fp.transform.position, fp.transform.rotation);
+            flash.Play();
             fp.transform.rotation = initialRotation;
         }
     }
@@ -77,6 +78,7 @@ public class PlayerController : MonoBehaviour
             Quaternion initialRotation = fp.transform.rotation;
             fp.transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
             GameObject C = Instantiate(CBall, fp.transform.position, fp.transform.rotation);
+            flash.Play();
             fp.transform.rotation = initialRotation;
         }
     }

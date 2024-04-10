@@ -11,13 +11,12 @@ public class PlayerController : MonoBehaviour
     public float currentSpeed = 0f;
     private float delayR = 5f;
     private float delayL = 5f;
-    public ParticleSystem flash;
+    [SerializeField] public ParticleSystem[] flashR;
+    [SerializeField] public ParticleSystem[] flashL;
     [SerializeField] public GameObject[] firePointsR;
     [SerializeField] public GameObject[] firePointsL;
 
     [SerializeField] private GameObject CBall;
-
-     
 
     void Update()
     {
@@ -62,24 +61,24 @@ public class PlayerController : MonoBehaviour
     }
     void ShootLeft()
     {
-        foreach(GameObject fp in firePointsL)
+        for(int i = 0; i<=2;  i++)
         {
-            Quaternion initialRotation = fp.transform.rotation;
-            fp.transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
-            GameObject C = Instantiate(CBall, fp.transform.position, fp.transform.rotation);
-            flash.Play();
-            fp.transform.rotation = initialRotation;
+            Quaternion initialRotation = firePointsL[i].transform.rotation;
+            firePointsL[i].transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
+            GameObject C = Instantiate(CBall, firePointsL[i].transform.position, firePointsL[i].transform.rotation);
+            flashL[i].Play(); 
+            firePointsL[i].transform.rotation = initialRotation;
         }
     }
     void ShootRight()
     {
-        foreach (GameObject fp in firePointsR)
+        for(int i = 0; i<=2; i++) 
         {
-            Quaternion initialRotation = fp.transform.rotation;
-            fp.transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
-            GameObject C = Instantiate(CBall, fp.transform.position, fp.transform.rotation);
-            flash.Play();
-            fp.transform.rotation = initialRotation;
+            Quaternion initialRotation = firePointsR[i].transform.rotation;
+            firePointsR[i].transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
+            GameObject C = Instantiate(CBall, firePointsR[i].transform.position, firePointsR[i].transform.rotation);
+            flashR[i].Play();
+            firePointsR[i].transform.rotation = initialRotation;
         }
     }
 }

@@ -99,7 +99,7 @@ Material:
     - _Gloss: 0.7
     - _Glossiness: 0.5
     - _LightWrapping: 1.05
-    - _MediumTilingDistance: 325.2
+    - _MediumTilingDistance: 325.23
     - _Metallic: 0
     - _Mode: 0
     - _NormalStrength: 2
@@ -107,7 +107,7 @@ Material:
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _ProbeReflectionIntensity: 0.867
-    - _RealtimeReflectionIntensity: 0.775
+    - _RealtimeReflectionIntensity: 0.292
     - _ReflectionIntensity: 0.385
     - _Refraction: 0.203
     - _RefractionDistance: 10

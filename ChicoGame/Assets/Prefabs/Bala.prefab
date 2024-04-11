@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7493317879702096307}
   - component: {fileID: 7493317879702096309}
   - component: {fileID: 7493317879702096305}
-  - component: {fileID: 8195663073960154432}
+  - component: {fileID: -447615063515720133}
   m_Layer: 0
   m_Name: Bala
   m_TagString: Untagged
@@ -115,7 +115,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8195663073960154432
+--- !u!114 &-447615063515720133
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -128,4 +128,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splash: {fileID: 8699767703002542525, guid: ab62828768da07242b01e6fedb9d6427, type: 3}
+  tempSplash: {fileID: 0}
   Player: {fileID: 0}

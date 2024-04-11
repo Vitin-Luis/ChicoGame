@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ProjectileTrajectory : MonoBehaviour
 {
+    public ParticleSystem splash;
     private Rigidbody Proj;
     [SerializeField] GameObject Player;
     // Start is called before the first frame update
@@ -19,6 +20,8 @@ public class ProjectileTrajectory : MonoBehaviour
 
     void OnTriggerEnter()
     {
+        ParticleSystem tempSplash = Instantiate(splash, transform.position, splash.transform.rotation);
         Destroy(gameObject);
+        Destroy(tempSplash, 3f);
     }
 }

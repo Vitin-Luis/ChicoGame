@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float rotationSpeed = 30f;
+    public float currentRotationSpeed;
+    public float maxRotationSpeed = 35;
     public float maxSpeed = 30f;
     public float accelerationRate = 3f;
     public float deaccelerationRate = 5f;
@@ -20,14 +21,16 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-        float inputAcceleration = Input.GetAxis("Vertical");
+        float inputAccelerationForward = Input.GetAxis("Vertical");
+        float inputAccelerationHorizontal = Input.GetAxis("Horizontal");
         delayR -= Time.deltaTime;
         delayL -= Time.deltaTime;
         currentSpeed = Mathf.Clamp(currentSpeed, 0, maxSpeed);
+        currentRotationSpeed = Mathf.Clamp(currentRotationSpeed, -maxRotationSpeed, maxRotationSpeed);
 
-        if (inputAcceleration != 0f)
+        if (inputAccelerationForward != 0f)
         {
-            currentSpeed += inputAcceleration * accelerationRate * Time.deltaTime;
+            currentSpeed += inputAccelerationForward * accelerationRate * Time.deltaTime;
             transform.Translate(Vector3.forward * currentSpeed * Time.deltaTime);
         }
         else
@@ -36,16 +39,24 @@ public class PlayerController : MonoBehaviour
             transform.Translate(Vector3.forward * currentSpeed * Time.deltaTime);
         }
 
-        // Rotação à esquerda (tecla A)
-        if (Input.GetKey(KeyCode.A))
+        if (inputAccelerationHorizontal != 0f)
         {
-            transform.Rotate(Vector3.up, rotationSpeed * Time.deltaTime);
+            currentRotationSpeed += inputAccelerationHorizontal * Time.deltaTime * (accelerationRate + 2);      
+            transform.Rotate(Vector3.up * currentRotationSpeed * Time.deltaTime);
         }
-
-        // Rotação à direita (tecla D)
-        if (Input.GetKey(KeyCode.D))
+        else
         {
-            transform.Rotate(Vector3.up, -rotationSpeed * Time.deltaTime);
+            if (currentRotationSpeed > 0)
+            {
+                currentRotationSpeed -= (deaccelerationRate + 2) * Time.deltaTime;
+                currentRotationSpeed = Mathf.Max(currentRotationSpeed, 0f);
+            }
+            else if (currentRotationSpeed < 0)
+            {
+                currentRotationSpeed += (deaccelerationRate + 2) * Time.deltaTime;
+                currentRotationSpeed = Mathf.Min(currentRotationSpeed, 0f);
+            }
+            transform.Rotate(Vector3.up * currentRotationSpeed * Time.deltaTime);
         }
         if (Input.GetKey(KeyCode.Q) && delayL < 0)
         {
@@ -65,7 +76,7 @@ public class PlayerController : MonoBehaviour
         {
             Quaternion initialRotation = firePointsL[i].transform.rotation;
             firePointsL[i].transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
-            GameObject C = Instantiate(CBall, firePointsL[i].transform.position, firePointsL[i].transform.rotation);
+            Instantiate(CBall, firePointsL[i].transform.position, firePointsL[i].transform.rotation);
             flashL[i].Play(); 
             firePointsL[i].transform.rotation = initialRotation;
         }
@@ -75,8 +86,8 @@ public class PlayerController : MonoBehaviour
         for(int i = 0; i<=2; i++) 
         {
             Quaternion initialRotation = firePointsR[i].transform.rotation;
-            firePointsR[i].transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
-            GameObject C = Instantiate(CBall, firePointsR[i].transform.position, firePointsR[i].transform.rotation);
+            firePointsR[i].transform.Rotate(0f - currentSpeed, 0f, 0f, Space.Self);
+            Instantiate(CBall, firePointsR[i].transform.position, firePointsR[i].transform.rotation);
             flashR[i].Play();
             firePointsR[i].transform.rotation = initialRotation;
         }

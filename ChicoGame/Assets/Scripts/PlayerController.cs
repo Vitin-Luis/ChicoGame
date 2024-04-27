@@ -41,19 +41,19 @@ public class PlayerController : MonoBehaviour
 
         if (inputAccelerationHorizontal != 0f)
         {
-            currentRotationSpeed += inputAccelerationHorizontal * Time.deltaTime * (accelerationRate + 2);      
+            currentRotationSpeed += inputAccelerationHorizontal * Time.deltaTime * (accelerationRate + 3);      
             transform.Rotate(Vector3.up * currentRotationSpeed * Time.deltaTime);
         }
         else
         {
             if (currentRotationSpeed > 0)
             {
-                currentRotationSpeed -= (deaccelerationRate + 2) * Time.deltaTime;
+                currentRotationSpeed -= (deaccelerationRate + 7) * Time.deltaTime;
                 currentRotationSpeed = Mathf.Max(currentRotationSpeed, 0f);
             }
             else if (currentRotationSpeed < 0)
             {
-                currentRotationSpeed += (deaccelerationRate + 2) * Time.deltaTime;
+                currentRotationSpeed += (deaccelerationRate + 7) * Time.deltaTime;
                 currentRotationSpeed = Mathf.Min(currentRotationSpeed, 0f);
             }
             transform.Rotate(Vector3.up * currentRotationSpeed * Time.deltaTime);
@@ -75,8 +75,9 @@ public class PlayerController : MonoBehaviour
         for(int i = 0; i<=2;  i++)
         {
             Quaternion initialRotation = firePointsL[i].transform.rotation;
-            firePointsL[i].transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
-            Instantiate(CBall, firePointsL[i].transform.position, firePointsL[i].transform.rotation);
+            firePointsL[i].transform.Rotate(0f + (currentSpeed * 0.8f), 0f, 0f, Space.Self);
+            Rigidbody C = Instantiate(CBall, firePointsL[i].transform.position, firePointsL[i].transform.rotation).GetComponent<Rigidbody>();
+            C.AddRelativeForce(transform.up * 50f, ForceMode.Impulse);
             flashL[i].Play(); 
             firePointsL[i].transform.rotation = initialRotation;
         }
@@ -86,8 +87,9 @@ public class PlayerController : MonoBehaviour
         for(int i = 0; i<=2; i++) 
         {
             Quaternion initialRotation = firePointsR[i].transform.rotation;
-            firePointsR[i].transform.Rotate(0f - currentSpeed, 0f, 0f, Space.Self);
-            Instantiate(CBall, firePointsR[i].transform.position, firePointsR[i].transform.rotation);
+            firePointsR[i].transform.Rotate(0f - (currentSpeed * 0.8f), 0f, 0f, Space.Self);
+            Rigidbody C = Instantiate(CBall, firePointsR[i].transform.position, firePointsR[i].transform.rotation).GetComponent<Rigidbody>();
+            C.AddRelativeForce(transform.up * 50f, ForceMode.Impulse);
             flashR[i].Play();
             firePointsR[i].transform.rotation = initialRotation;
         }

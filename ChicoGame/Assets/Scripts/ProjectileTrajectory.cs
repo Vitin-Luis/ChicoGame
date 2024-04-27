@@ -14,13 +14,16 @@ public class ProjectileTrajectory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.up * 50f * Time.deltaTime);
+        //transform.Translate(Vector3.up * 50f * Time.deltaTime);
     }
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        Instantiate(splash, transform.position, splash.transform.rotation);
-
-        Destroy(gameObject);
+        if (other.gameObject.CompareTag("WaterBox"))
+        {
+            Instantiate(splash, transform.position, splash.transform.rotation);
+            Destroy(gameObject);
+        }
+        
     }
 }

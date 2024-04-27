@@ -30,6 +30,7 @@ public class EnemyAI : MonoBehaviour
 
     public float sightRange;
     public bool playerInSightRange;
+    public bool combatMode;
     public VerifyCollision boxR;
     public VerifyCollision boxL;
 
@@ -41,7 +42,7 @@ public class EnemyAI : MonoBehaviour
     }
 
     private void Update()
-    {
+    {   
         float distanceToTarget1 = Vector3.Distance(transform.position, playerTarget1.position);
         float distanceToTarget2 = Vector3.Distance(transform.position, playerTarget2.position);
 
@@ -53,6 +54,9 @@ public class EnemyAI : MonoBehaviour
         {
             player = playerTarget2;
         }
+        
+
+        if(health <= 0) Destroy(gameObject);
 
         Vector3 curMove = transform.position - previousPosition;
         curSpeed = curMove.magnitude / Time.deltaTime;
@@ -63,7 +67,10 @@ public class EnemyAI : MonoBehaviour
 
 
         if (!playerInSightRange) Patroling();
-        if (playerInSightRange) ChasePlayer();
+        if (playerInSightRange)
+        {
+            ChasePlayer();
+        }
         if ((boxR.isInRange() || boxL.isInRange()) && playerInSightRange && (delayR <= 0 || delayL <= 0))
         {
             AttackPlayer();
@@ -147,5 +154,12 @@ public class EnemyAI : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, sightRange);
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Bala")){
+            health -= 10;
+        }
     }
 }

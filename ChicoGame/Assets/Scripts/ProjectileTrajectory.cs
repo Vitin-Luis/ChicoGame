@@ -24,6 +24,9 @@ public class ProjectileTrajectory : MonoBehaviour
             Instantiate(splash, transform.position, splash.transform.rotation);
             Destroy(gameObject);
         }
-        
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

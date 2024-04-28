@@ -25341,6 +25341,7 @@ MonoBehaviour:
   combatMode: 0
   boxR: {fileID: 0}
   boxL: {fileID: 0}
+  spawn: {fileID: 0}
 --- !u!65 &6162985220053209969
 BoxCollider:
   m_ObjectHideFlags: 0

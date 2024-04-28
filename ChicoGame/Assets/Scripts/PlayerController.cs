@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     public float accelerationRate = 3f;
     public float deaccelerationRate = 5f;
     public float currentSpeed = 0f;
+    public float health = 90;
     private float delayR = 5f;
     private float delayL = 5f;
     [SerializeField] public ParticleSystem[] flashR;
@@ -27,6 +28,11 @@ public class PlayerController : MonoBehaviour
         delayL -= Time.deltaTime;
         currentSpeed = Mathf.Clamp(currentSpeed, 0, maxSpeed);
         currentRotationSpeed = Mathf.Clamp(currentRotationSpeed, -maxRotationSpeed, maxRotationSpeed);
+
+        if(health <= 0f)
+        {
+
+        }
 
         if (inputAccelerationForward != 0f)
         {
@@ -92,6 +98,13 @@ public class PlayerController : MonoBehaviour
             C.AddRelativeForce(transform.up * 50f, ForceMode.Impulse);
             flashR[i].Play();
             firePointsR[i].transform.rotation = initialRotation;
+        }
+    }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Bala"))
+        {
+            health -= 10;
         }
     }
 }

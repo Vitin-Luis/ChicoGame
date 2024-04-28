@@ -6,9 +6,9 @@ using UnityEngine.AI;
 public class EnemyAI : MonoBehaviour
 {
     public NavMeshAgent agent;
-    [SerializeField] public Transform playerTarget1;
-    [SerializeField] public Transform playerTarget2;
-    public Transform player;
+    [SerializeField] public GameObject playerTarget1;
+    [SerializeField] public GameObject playerTarget2;
+    public GameObject player;
     public LayerMask whatIsGround, whatIsPlayer;
     public float health;
     public Vector3 walkPoint;
@@ -35,7 +35,9 @@ public class EnemyAI : MonoBehaviour
     public VerifyCollision boxL;
 
     private void Start()
-    {
+    {   
+        playerTarget1 = GameObject.Find("AITarget");
+        playerTarget2 = GameObject.Find("AITarget2");
         boxR = inRangeR.GetComponent<VerifyCollision>();
         boxL = inRangeL.GetComponent<VerifyCollision>();
         agent = GetComponent<NavMeshAgent>();
@@ -43,8 +45,8 @@ public class EnemyAI : MonoBehaviour
 
     private void Update()
     {   
-        float distanceToTarget1 = Vector3.Distance(transform.position, playerTarget1.position);
-        float distanceToTarget2 = Vector3.Distance(transform.position, playerTarget2.position);
+        float distanceToTarget1 = Vector3.Distance(transform.position, playerTarget1.transform.position);
+        float distanceToTarget2 = Vector3.Distance(transform.position, playerTarget2.transform.position);
 
         if (distanceToTarget1 <= distanceToTarget2)
         {
@@ -105,7 +107,7 @@ public class EnemyAI : MonoBehaviour
 
     private void ChasePlayer()
     {    
-         agent.SetDestination(player.position);
+         agent.SetDestination(player.transform.position);
     }
 
     private void AttackPlayer()

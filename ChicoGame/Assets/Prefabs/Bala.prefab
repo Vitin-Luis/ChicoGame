@@ -95,7 +95,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7493317879702096297}
   serializedVersion: 2
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.5
   m_UseGravity: 1
@@ -129,7 +129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   splash: {fileID: 8699767703002542525, guid: ab62828768da07242b01e6fedb9d6427, type: 3}
-  _smokeTrail: {fileID: 6637347130787718148, guid: 590a12a95d69f32469eae65b5d905ad3, type: 3}
 --- !u!1001 &2581445727892351512
 PrefabInstance:
   m_ObjectHideFlags: 0

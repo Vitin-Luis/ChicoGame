@@ -14,7 +14,7 @@ public class ProjectileTrajectory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.up * 50f * Time.deltaTime);
+        //transform.Translate(Vector3.up * 50f * Time.deltaTime);
     }
 
     void OnTriggerEnter()

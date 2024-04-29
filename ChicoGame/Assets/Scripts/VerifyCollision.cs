@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Código para verificar colisões
 public class VerifyCollision : MonoBehaviour
 {
     public bool ableToFire;
-    // Start is called before the first frame update
     void Start()
     {
         

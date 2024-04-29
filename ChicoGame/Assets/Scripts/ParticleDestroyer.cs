@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class ParticleDestroyer : MonoBehaviour
 {
-    // Start is called before the first frame update
+
     void Start()
     {
+        // Destroi particula
         Destroy(gameObject, 3.5f);
     }
 }

@@ -33,6 +33,7 @@ public class EnemyAI : MonoBehaviour
     public bool combatMode;
     public VerifyCollision boxR;
     public VerifyCollision boxL;
+    public SpawnPrefabRandomly spawn;
 
     private void Start()
     {   
@@ -148,6 +149,7 @@ public class EnemyAI : MonoBehaviour
     }
     private void DestroyEnemy()
     {
+        spawn.InstanceDestroyed();
         Destroy(gameObject);
     }
 

@@ -5,43 +5,47 @@ using UnityEngine.AI;
 
 public class AISpawner : MonoBehaviour
 {
-    public GameObject AIPrefab;
-    public float spawnRadius = 10f;
-    public float spawnInterval = 5f;
-    public int maxNumberOfAI = 5;
+    public GameObject prefabToSpawn;
+    public float spawnInterval = 3f;
+    public int maxInstances = 5;
 
-    private int currentNumberOfAI = 0;
-    private float timer = 0f;
+    private int currentInstances = 0;
 
     void Start()
     {
-        SpawnAI();
+
+        InvokeRepeating("SpawnPrefab", 0f, spawnInterval);
     }
 
-    void Update()
+    void SpawnPrefab()
     {
-        if (currentNumberOfAI < maxNumberOfAI)
+
+        if (currentInstances < maxInstances)
         {
-            timer += Time.deltaTime;
-            if (timer >= spawnInterval)
-            {
-                SpawnAI();
-                timer = 0f;
-            }
+
+            Vector3 randomPosition = RandomNavMeshPosition();
+
+
+            Instantiate(prefabToSpawn, randomPosition, Quaternion.identity);
+
+
+            currentInstances++;
         }
     }
 
-    void SpawnAI()
+    Vector3 RandomNavMeshPosition()
     {
-        NavMeshTriangulation navMeshData = NavMesh.CalculateTriangulation();
-        Vector3[] navMeshVertices = navMeshData.vertices;
-        Vector3 randomPoint = navMeshVertices[Random.Range(0, navMeshVertices.Length)];
-        Vector3 spawnPosition = randomPoint + Random.insideUnitSphere * spawnRadius;
-        spawnPosition.y = 0f;
+        UnityEngine.AI.NavMeshHit hit;
+        Vector3 randomPosition = Vector3.zero;
+        while (!UnityEngine.AI.NavMesh.SamplePosition(randomPosition, out hit, 1.0f, UnityEngine.AI.NavMesh.AllAreas))
+        {
+            randomPosition = transform.position + Random.insideUnitSphere * 1000f;
+        }
+        return hit.position;
+    }
 
-        GameObject ai = Instantiate(AIPrefab, spawnPosition, Quaternion.identity);
-        ai.transform.parent = transform;
-
-        currentNumberOfAI++;
+    public void InstanceDestroyed()
+    {
+        currentInstances--;
     }
 }

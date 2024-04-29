@@ -79,7 +79,6 @@ public class EnemyAI : MonoBehaviour
             delayL = 5;
             delayR = 5;
         }
-
     }
 
     private void Patroling()

@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour
 
         if(health <= 0f)
         {
-
+            Destroy(gameObject);
         }
 
         if (inputAccelerationForward != 0f)

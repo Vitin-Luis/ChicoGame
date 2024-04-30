@@ -78,8 +78,7 @@ public class EnemyAI : MonoBehaviour
         // Obtém o componente NavMeshAgent
         agent = GetComponent<NavMeshAgent>();
 		
-		// Obtém o componente SpawnPrefabRandomly
-		aiSpawner = GetComponent<AISpawner>();
+		
     }
 
     // Atualização
@@ -104,8 +103,6 @@ public class EnemyAI : MonoBehaviour
 		{
     		Destroy(gameObject);
     		ScoreManager.scoreCount += 10;
-			aiSpawner.InstanceDestroyed();
-			aiSpawner.SpawnPrefab();
 		}
 
         // Calcula a velocidade atual do inimigo

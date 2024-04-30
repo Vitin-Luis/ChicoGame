@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 // Classe responsável pelo controle do jogador
 public class PlayerController : MonoBehaviour
@@ -24,13 +25,15 @@ public class PlayerController : MonoBehaviour
     public float currentSpeed = 0f;
 
     // Saúde do jogador
-    public float health = 90;
+    public float health = 10;
 
     // Atraso para o tiro direito
     private float delayR = 5f;
 
     // Atraso para o tiro esquerdo
     private float delayL = 5f;
+
+    public GameOverScreen gameOverScreen;
 
     // Partículas e pontos de fogo para os tiros direito e esquerdo
     [SerializeField] public ParticleSystem[] flashR;
@@ -41,6 +44,11 @@ public class PlayerController : MonoBehaviour
     // Prefab da bola de fogo
     [SerializeField] private GameObject CBall;
 
+    void Start()
+    {
+        Time.timeScale = 1f;
+    }
+    
     // Atualização
     void Update()
     {
@@ -59,8 +67,8 @@ public class PlayerController : MonoBehaviour
         // Verifica se a saúde do jogador chegou a zero
         if(health <= 0f)
         {
-            // Destroi o jogador
-            Destroy(gameObject);
+            // Para o Jogo e Mostra tela de Game Over
+            GameOver();
         }
 
         // Acelera o jogador para frente se houver entrada
@@ -113,6 +121,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    // Função de Game Over
+    public void GameOver()
+    {
+        gameOverScreen.Setup();
+    }
+    
     // Função para disparar à esquerda
     void ShootLeft()
     {

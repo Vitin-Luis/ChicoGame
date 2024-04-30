@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ProjectileTrajectory : MonoBehaviour
 {
+    public ParticleSystem splash;
     private Rigidbody Proj;
-    [SerializeField] GameObject Player;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,11 +14,23 @@ public class ProjectileTrajectory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.up * 50f * Time.deltaTime);
+        //transform.Translate(Vector3.up * 50f * Time.deltaTime);
     }
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        Destroy(gameObject);
+        if (other.gameObject.CompareTag("WaterBox"))
+        {
+            Instantiate(splash, transform.position, splash.transform.rotation);
+            Destroy(gameObject);
+        }
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

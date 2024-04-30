@@ -5,8 +5,1151 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ee229fb-dc34-43f0-a96e-11b6e1aa0222" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnderWaterFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnderWaterFX.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Documentation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Documentation/APIReference.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Documentation/APIReference.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Documentation/FAQ.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Documentation/FAQ.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Documentation/QuickStartup.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Documentation/QuickStartup.pdf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Drum_empty.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Drum_empty.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Drum_full.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Drum_full.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_ao.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_ao.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_b.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_b.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_diff.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_normal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/drum_normal.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/mesh.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/mesh.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/proxy.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Metal_drum/proxy.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/No Name.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/No Name.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_body.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_body.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_floor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_floor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_glass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_glass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_hull.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_hull.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_inside.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_inside.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_metal.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_metal.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_props.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VAKTA_props.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VATKA_safety.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/VATKA_safety.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/body.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/body/body_ao.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/body/body_ao.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/body/body_diff.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/body/body_diff.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/body/body_height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/body/body_height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/body/body_normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/body/body_normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/floor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/floor/floor_ao.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/floor/floor_ao.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/floor/floor_diff.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/floor/floor_diff.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/floor/floor_height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/floor/floor_height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/floor/floor_normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/floor/floor_normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/hull.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/hull/hull_ao.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/hull/hull_ao.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/hull/hull_diff.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/hull/hull_diff.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/hull/hull_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/hull/hull_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/hull/hull_normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/hull/hull_normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/props/props_ao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/props/props_ao.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/props/props_diffuse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/props/props_diffuse.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/props/props_normal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/props/props_normal.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/props/props_roughness.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/props/props_roughness.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/safety.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/safety/safety_ao.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/safety/safety_ao.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/safety/safety_diff.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/safety/safety_diff.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/safety/safety_height.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/safety/safety_height.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/safety/safety_normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/Materials/safety/safety_normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/NGCS_VAKTA.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/NGCS_VAKTA.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/floor_proxy.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/floor_proxy.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/hull_proxy.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/hull_proxy.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/propellers.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGC_VAKTA/propellers.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGS_VAKTA.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/NCGS_VAKTA.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/PROXY_MLT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/PROXY_MLT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/Sand.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/Sand.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/Sea.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/Sea.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/Sea_100_100.FBX" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/Sea_100_100.FBX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/sand_diff.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/sand_diff.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/sand_normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/sand_normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/sea_test.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/sea_test.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/waves_noise.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Models/Sea/waves_noise.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/ArchimedsLab.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/ArchimedsLab.dll.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/BoatController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/BoatController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/GameEntity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/GameEntity/FloatingGameEntityFlat.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/GameEntity/FloatingGameEntityFlat.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/GameEntity/FloatingGameEntityRealist.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/GameEntity/FloatingGameEntityRealist.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/GameEntity/FloatingGameEntityStorm.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/GameEntity/FloatingGameEntityStorm.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/GameEntity/GameEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/GameEntity/GameEntity.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/OceanAdvanced.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/OceanAdvanced.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/Orbital.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/Orbital.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/PropellerBoats.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/PropellerBoats.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/SplashGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/SplashGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/Tools.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/Tools/Proxies.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/Tools/Proxies.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/WakeGenerator.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Scripts/WakeGenerator.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/Ocean.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/Ocean.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/OceanAdvanced.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/OceanAdvanced.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/WaterToolBox.cginc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/WaterToolBox.cginc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/foam2bc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/foam2bc.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/test.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/Shaders/test.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/sample.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/sample.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/sampleSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FloatingEntities/sampleSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Misc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Misc/FX.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Misc/FX.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/AppleRed_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/Materials/Default.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/Materials/Default.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/Materials/äpple_RetopoGroup1Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Apple/Materials/äpple_RetopoGroup1Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bags/Bags_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BaseWood.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BaseWood.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/BOF6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/BOF6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch Of Decors 6_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch Of Decors 6_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch Of Decors 6_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch Of Decors 6_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch Of Decors 6_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch Of Decors 6_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch Of Decors 6_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch Of Decors 6_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch of Decors 6.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch Of Decors 6/Batch of Decors 6.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch Of Decors 2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch Of Decors 2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2 .fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2 .fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 2/Batch of Decors 2_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of Decors 3 .fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of Decors 3 .fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of Decors 3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of Decors 3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 3/Batch of decors 3_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 4/Batch of Decors 4_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of Decors 5_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of decors 5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors 5/Batch of decors 5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decor .fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decor .fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/Batch of Decors_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/BatchOfDecors.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Batch of Decors/BatchOfDecors.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bed/Bed_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Bench/Bench_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/BoozeShelf/BoozeShelf_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/CabinettMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/CabinettMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/Cabinett_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/Cabinett_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/Cabinett_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/Cabinett_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/Cabinett_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/Cabinett_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/Cabinett_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/Cabinett_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/cabinett.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Cabinett/cabinett.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair/Chair_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Chair2/Chair2_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag).meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag).mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag).mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag).obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag).obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/CoinPurse(bag)/Coinpurse(bag)_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Emission.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Emission.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FireCamp/FireCamp_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/FirePlace/FirePlace_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood2_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood2_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood2_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood2_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood2_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Firewood/Firewood2_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Fish/Fish_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Howards Compass/Howards Compass_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ingridients/Ingridients_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/JawMaster/JawMaster_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KegSmooth/KegSmooth2_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDeskMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDeskMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/KitchenDesk/KitchenDesk_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Knifes and Forks/Knives and Forks_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle, Fork, Spatula.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle, Fork, Spatula.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Ladle/Ladle_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/GlowMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/GlowMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/LanternGlassMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/LanternGlassMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/LanternGlass_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/LanternGlass_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/LanternGlass_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/LanternGlass_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/LanternGlass_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/LanternGlass_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Lantern/Lantern_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable_Specular2.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/LargeTable/LargeTable_Specular2.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/LootMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/LootMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Loot/Loot_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable2.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable2.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/NewRoundTable/NewRoundTable_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrelSmooth.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrelSmooth.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/OpenBarrel/OpenBarrel_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pear/Pear_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PAB_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PAB_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PAB_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PAB_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PAB_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PAB_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PaB_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PaB_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/Plank.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/Plank.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PlankAndBeamMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/PlankAndBeamMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/WoodenBeam.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Plank and Beam/WoodenBeam.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Materials/Cube.000_Cube.002Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Materials/Cube.000_Cube.002Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Materials/Cube.001Mat.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Materials/Cube.001Mat.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Materials/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Materials/Material.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Pollybu.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Pollybu.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Pollybu_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Pollybu_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Pollybu_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Pollybu_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Pollybu_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pollybu/Pollybu_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Pots/Pots_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/RareColor/RareColor_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/SculptedDesk_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/ScupltedDesk.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/SculptedDesk/ScupltedDesk.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShootBeforeYou´reShot_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShotBeforeYou´reShot.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ShootBeforeYou´reShot/ShotBeforeYou´reShot.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple BottleMaterial.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple BottleMaterial.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Simple Bottle/Simple Bottle_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stair and Kitchenprops.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stair and Kitchenprops.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen Props_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen Props_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen Props_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen Props_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen Props_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen Props_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen Props_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen Props_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen props.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Stair and Kitchen props/Stairs and Kitchen props.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TanjasDesk/TanjasDesk_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernDoor/TavernDoor_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernWalls.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernWalls/TavernHouseModel.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TavernWalls/TavernHouseModel.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/ThatTable/ThatTable_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt Book.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt Book.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt Book_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt Book_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt Book_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt Book_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt Book_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt Book_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheGreatHunt Book/The Great Hunt.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/TheShelf/TheShelf_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Emission.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Emission.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Torch/Torch_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Trifold/Trifold_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/Wanted Posters_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/WantedPosters .fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/WantedPosters .fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/WantedPosters.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Wanted Posters/WantedPosters.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/WhiskeyGlass.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/WhiskeyGlass/WhiskeyGlass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/WhiskeyGlass/WhiskeyGlass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/WhiskeyGlass/WhiskeyGlass.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/WhiskeyGlass/WhiskeyGlass.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/WhiskeyGlass/WhiskeyGlass_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/WhiskeyGlass/WhiskeyGlass_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/WhiskeyGlass/WhiskeyGlass_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/WhiskeyGlass/WhiskeyGlass_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window.obj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Albedo2.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Albedo2.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Emission.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Emission.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Specular2.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Objects/Window/Window_Specular2.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/Fire.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/Fire.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/Materials/SmallSmoke.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/Materials/SmallSmoke.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/Real-Fire-PNG-HD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/Real-Fire-PNG-HD.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/SmallSmoke.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/SmallSmoke.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/Smoker.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Particles/Smoker.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-0_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-0_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-0_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-0_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-1_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-1_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-1_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-1_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-2_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-2_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-2_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-2_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-3_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-3_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-3_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-3_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-4_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-4_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-4_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-4_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-5_comp_dir.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-5_comp_dir.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-5_comp_light.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/Lightmap-5_comp_light.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/ReflectionProbe-1.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/ReflectionProbe-1.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/ReflectionProbe-2.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/PirateTavern/ReflectionProbe-2.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/Bed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/Bed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/Bench 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/Bench 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/BoozeShelf.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/BoozeShelf.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/FineChair.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/FineChair.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/KitchenDesk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/KitchenDesk.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/LargeRoundTable.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/LargeRoundTable.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/RoundTable.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/RoundTable.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/SculptedDesk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/SculptedDesk.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/SimpleChair1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/SimpleChair1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/SimpleChair2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/SimpleChair2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/TanjasDesk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/TanjasDesk.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/ThatTable.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/ThatTable.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/TheShelf.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/TheShelf.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/cabinett.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Furnishings/cabinett.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/BigPlant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/BigPlant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Chest.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Chest.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Firewood.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Firewood.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/KegTap.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/KegTap.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/LargePotLid.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/LargePotLid.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/LargePotRice.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/LargePotRice.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Lute.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Lute.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Medium pot with Rice.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Medium pot with Rice.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/MediumPot Tea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/MediumPot Tea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/MediumPot TeaHalfLid.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/MediumPot TeaHalfLid.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/NoticeBoard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/NoticeBoard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/OpenBarrelapples.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/OpenBarrelapples.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Plunderchest With Rugs.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Plunderchest With Rugs.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/PotatoBag.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/PotatoBag.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Sack.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/Sack.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/SmallPotLid.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/SmallPotLid.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/SmallPotLidHalfRice.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/SmallPotLidHalfRice.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/SmallPotLidOffTea.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Medium Decors/SmallPotLidOffTea.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Misc.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Misc/Reflection probes.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Misc/Reflection probes.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Objects with FX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Objects with FX/FirePlace.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Objects with FX/FirePlace.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Objects with FX/Lantern.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Objects with FX/Lantern.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Objects with FX/Torch.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Objects with FX/Torch.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/Plank.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/Plank.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/StairWalls.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/StairWalls.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/TavernDoor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/TavernDoor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/TavernHouseModel (1).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/TavernHouseModel (1).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/Window.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/Window.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/Wooden_BeamML.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/Part Of House/Wooden_BeamML.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/AppleRed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/AppleRed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/BagOfCoin.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/BagOfCoin.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/BottleCinnamon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/BottleCinnamon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/BottleCoriander.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/BottleCoriander.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/BottleParsley.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/BottleParsley.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Bowl.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Bowl.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Candle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Candle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Coinpurse.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Coinpurse.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/CookingPot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/CookingPot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Cutting_Board.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Cutting_Board.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/DiningBowl.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/DiningBowl.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/FishBoard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/FishBoard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Flask.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Flask.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/FlintPistol.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/FlintPistol.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Fork.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Fork.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/HatAndPistolBoard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/HatAndPistolBoard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Howards Compass (2).prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Howards Compass (2).prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/InkBottle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/InkBottle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/JawMaster.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/JawMaster.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Knives and Forks 1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Knives and Forks 1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Ladle, Fork, Spatula.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Ladle, Fork, Spatula.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/LookingGlass.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/LookingGlass.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Loot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Loot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/PaperScroll.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/PaperScroll.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Pear.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Pear.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Pipe.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Pipe.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/PirateDagger.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/PirateDagger.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Plate.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Plate.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Pollybu.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Pollybu.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/PotFromBatch6.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/PotFromBatch6.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/RareColor.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/RareColor.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/RuleBook.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/RuleBook.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/SaucePan.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/SaucePan.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Scales.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Scales.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/ShootBeforeYou´reShot.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/ShootBeforeYou´reShot.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Sickle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Sickle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/SimpleBottle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/SimpleBottle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Splant.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Splant.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Spoon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Spoon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/TableKnife.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/TableKnife.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Tankard.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Tankard.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/TeaCan.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/TeaCan.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/The Great Hunt Book.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/The Great Hunt Book.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/TinySpoon.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/TinySpoon.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Tray.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Tray.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Trifold.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Trifold.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/WhiskeyGlass.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/WhiskeyGlass.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Wine Glass.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/Wine Glass.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/teacup.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Prefabs/SmallDecors/teacup.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Probes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Probes/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Probes/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/Readme.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Height.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Height.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/PlanksTiled/PlanksTiled_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof_Albedo.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof_Albedo.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof_Normal.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof_Normal.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof_Specular.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Roof/Roof_Specular.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/GlossyExport.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/GlossyExport.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/Height.tif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/Height.tif.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/NORMAL.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/NORMAL.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/Wall.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/Wall.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/wall2_Occlusion.tga" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PollyPrivateers/SeamlessMaterials/Wall2/wall2_Occlusion.tga.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AISpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AISpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Fence.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Fence.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/FencePrefab.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/FencePrefab.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceCubeStick.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceCubeStick.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceCubeStick.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceCubeStick.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceCubeStick.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceCubeStick.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceStick.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceStick.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceStick.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceStick.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceStickBackSides.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceStickBackSides.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceStickBackSides.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../VillagePack/Fence/Materials/FenceStickBackSides.mat.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +1162,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/AISpawner.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/CameraMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EnemyAI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExplosionParticle.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/FollowPlayer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -29,7 +1172,7 @@
     <setting file="file://$PROJECT_DIR$/ProjectileTrajectory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ScoreManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ShootingManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SpawnPrefabRandomly.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpawnPrefabRandomly.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UnderWaterFX.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VerifyCollision.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/VisualizeBox.cs" root0="SKIP_HIGHLIGHTING" />
@@ -42,26 +1185,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "victor",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;victor&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\victo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\victo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\victo\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\victo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\victo\\AppData\\Roaming\\JetBrains\\Rider2023.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\victo\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -72,6 +1215,7 @@
       <updated>1714335156375</updated>
       <workItem from="1714335159743" duration="6819000" />
       <workItem from="1714416537103" duration="18711000" />
+      <workItem from="1714442922403" duration="228000" />
     </task>
     <servers />
   </component>

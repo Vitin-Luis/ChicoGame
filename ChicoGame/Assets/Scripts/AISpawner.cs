@@ -8,7 +8,7 @@ public class AISpawner : MonoBehaviour
     public GameObject prefabToSpawn;
     public GameObject[] AIArray;
     public float spawnInterval = 3f;
-    public int maxInstances = 5;
+    public int maxInstances = 7;
 
     private int currentInstances = 0;
 

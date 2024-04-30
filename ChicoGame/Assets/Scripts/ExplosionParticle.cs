@@ -5,7 +5,6 @@ using UnityEngine;
 public class ExplosionParticle : MonoBehaviour
 {
     public ParticleSystem flash;
-    // Start is called before the first frame update
     void Start()
     {
         flash = GetComponent<ParticleSystem>();

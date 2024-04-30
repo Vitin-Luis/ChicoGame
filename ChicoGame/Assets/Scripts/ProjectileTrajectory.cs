@@ -17,10 +17,20 @@ public class ProjectileTrajectory : MonoBehaviour
         //transform.Translate(Vector3.up * 50f * Time.deltaTime);
     }
 
-    void OnTriggerEnter()
+    void OnTriggerEnter(Collider other)
     {
-        Instantiate(splash, transform.position, splash.transform.rotation);
-
-        Destroy(gameObject);
+        if (other.gameObject.CompareTag("WaterBox"))
+        {
+            Instantiate(splash, transform.position, splash.transform.rotation);
+            Destroy(gameObject);
+        }
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+        if (other.gameObject.CompareTag("Player"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

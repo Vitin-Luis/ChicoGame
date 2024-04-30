@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
     public float currentSpeed = 0f;
 
     // Saúde do jogador
-    public float health = 10;
+    public float health = 90;
 
     // Atraso para o tiro direito
     private float delayR = 5f;
@@ -87,11 +87,8 @@ public class PlayerController : MonoBehaviour
         // Rotaciona o jogador se houver entrada horizontal
         if (inputAccelerationHorizontal != 0f)
         {
-<<<<<<< HEAD
+
             currentRotationSpeed += inputAccelerationHorizontal * Time.deltaTime * (accelerationRate + 4);      
-=======
-            currentRotationSpeed += inputAccelerationHorizontal * Time.deltaTime * (accelerationRate + 3);      
->>>>>>> lucas
             transform.Rotate(Vector3.up * currentRotationSpeed * Time.deltaTime);
         }
         // Desacelera a rotação se não houver entrada
@@ -137,11 +134,9 @@ public class PlayerController : MonoBehaviour
         for(int i = 0; i<=2;  i++)
         {
             Quaternion initialRotation = firePointsL[i].transform.rotation;
-<<<<<<< HEAD
-            firePointsL[i].transform.Rotate(0f + currentSpeed, 0f, 0f, Space.Self);
-=======
+
             firePointsL[i].transform.Rotate(0f + (currentSpeed * 0.8f), 0f, 0f, Space.Self);
->>>>>>> lucas
+
             Rigidbody C = Instantiate(CBall, firePointsL[i].transform.position, firePointsL[i].transform.rotation).GetComponent<Rigidbody>();
             C.AddRelativeForce(transform.up * 50f, ForceMode.Impulse);
             flashL[i].Play(); 
@@ -155,11 +150,7 @@ public class PlayerController : MonoBehaviour
         for(int i = 0; i<=2; i++) 
         {
             Quaternion initialRotation = firePointsR[i].transform.rotation;
-<<<<<<< HEAD
-            firePointsR[i].transform.Rotate(0f - currentSpeed, 0f, 0f, Space.Self);
-=======
             firePointsR[i].transform.Rotate(0f - (currentSpeed * 0.8f), 0f, 0f, Space.Self);
->>>>>>> lucas
             Rigidbody C = Instantiate(CBall, firePointsR[i].transform.position, firePointsR[i].transform.rotation).GetComponent<Rigidbody>();
             C.AddRelativeForce(transform.up * 50f, ForceMode.Impulse);
             flashR[i].Play();

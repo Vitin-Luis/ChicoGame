@@ -18,6 +18,6 @@ public class UnderWaterFX : MonoBehaviour
     {
         RenderSettings.fogColor = new Color(0f, 0.733f, 1f);
         RenderSettings.fogStartDistance = 50f;
-        RenderSettings.fogEndDistance = 8100f;
+        RenderSettings.fogEndDistance = 4000f;
     }
 }

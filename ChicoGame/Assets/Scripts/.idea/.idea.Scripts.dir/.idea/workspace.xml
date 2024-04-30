@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ee229fb-dc34-43f0-a96e-11b6e1aa0222" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../AQUAS-Lite/Materials/AQUAS_Lite_Water.mat" beforeDir="false" afterPath="$PROJECT_DIR$/../AQUAS-Lite/Materials/AQUAS_Lite_Water.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polytope Studio/Lowpoly_Environments/SRP/PT_Nature_Free_URP_12.1.13.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polytope Studio/Lowpoly_Environments/SRP/PT_Nature_Free_URP_14.0.9.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Polytope Studio/Lowpoly_Environments/SRP/PT_Nature_Free_URP_16.0.5.unitypackage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/EnemyAI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnderWaterFX.cs" beforeDir="false" afterPath="$PROJECT_DIR$/UnderWaterFX.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +17,26 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/DestroyNotifier.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/EnemyAI.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/SpawnPrefabRandomly.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/AISpawner.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/CameraMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/EnemyAI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ExplosionParticle.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/FollowPlayer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameOverScreen.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ParticleDestroyer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlayerController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ProjectileTrajectory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ScoreManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ShootingManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SpawnPrefabRandomly.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/UnderWaterFX.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VerifyCollision.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/VisualizeBox.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2fkBNKFULh0pvkJ2EYJMVrf1PfO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,7 +46,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lucas",
+    "git-widget-placeholder": "victor",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -63,6 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1714335156375</updated>
       <workItem from="1714335159743" duration="6819000" />
+      <workItem from="1714416537103" duration="18711000" />
     </task>
     <servers />
   </component>

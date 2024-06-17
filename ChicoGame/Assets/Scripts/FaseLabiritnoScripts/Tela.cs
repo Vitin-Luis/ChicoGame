@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,6 +7,7 @@ public class Tela : MonoBehaviour
 {
     // Start is called before the first frame update
     public TelaPerdeu TelaPerdeu;
+    public TelaGanhou TelaGanhou;
     void Start()
     {
         
@@ -17,18 +19,28 @@ public class Tela : MonoBehaviour
         
     }
     
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (other.gameObject.CompareTag("Enemy"))
         {
             EndGame();
         }
+        if (other.gameObject.CompareTag("Tesouro"))
+        {
+            Ganhou();
+            Debug.Log("colidiu");
+        }
+        
     }
     
     void EndGame()
     {
         TelaPerdeu.Setup();
-        
+    }
+
+    void Ganhou()
+    {
+        TelaGanhou.Setup();
     }
     
 }

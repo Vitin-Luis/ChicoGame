@@ -12,23 +12,34 @@ public class AISpawner : MonoBehaviour
     public float spawnInterval = 3f;
     public int maxInstances = 5;
     public int maxBox = 10;
+    [SerializeField] ScoreManager scoreScreen;
+    [SerializeField] HealthBar bossBar;
+    [SerializeField] GameObject Boss;
 
     private int currentInstances = 0;
     private int currentBoxInstances = 0;
 
+    public static bool fase2;
+
     void Start()
     {
+        fase2 = false;
         InvokeRepeating("SpawnPrefab", 0f, spawnInterval);
     }
     void Update()
     {
         AIArray = GameObject.FindGameObjectsWithTag("Enemy");
         currentInstances = AIArray.Length;
+        if (ScoreManager.scoreCount >= 10)
+        {
+            fase2 = true;
+            SpawnBoss();
+        }
     }
 
     void SpawnPrefab()
     {
-        if (AIArray.Length < maxInstances){
+        if (AIArray.Length < maxInstances && fase2 == false){
             Vector3 randomPosition = RandomNavMeshPosition();
             Instantiate(prefabToSpawn, randomPosition, Quaternion.identity);
             currentInstances++;
@@ -49,5 +60,14 @@ public class AISpawner : MonoBehaviour
             randomPosition = transform.position + Random.insideUnitSphere * 1000f;
         }
         return hit.position;
+    }
+    void SpawnBoss()
+    {
+        scoreScreen.Disabled();
+        bossBar.Setup();
+        if (Boss)
+        {
+            Boss.SetActive(true);
+        }
     }
 }

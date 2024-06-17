@@ -124,6 +124,7 @@ public class PlayerController : MonoBehaviour
     // Função de Game Over
     public void GameOver()
     {
+        ScoreManager.scoreCount = 0;
         gameOverScreen.Setup();
     }
     

@@ -15,6 +15,11 @@ public class ScoreManager : MonoBehaviour
         
     }
 
+    public void Disabled()
+    {
+        gameObject.SetActive(false);
+    }
+
     // Método que atualiza score
     void Update()
     {

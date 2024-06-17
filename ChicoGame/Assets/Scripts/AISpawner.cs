@@ -6,9 +6,8 @@ using UnityEngine.AI;
 public class AISpawner : MonoBehaviour
 {
     public GameObject prefabToSpawn;
-    public GameObject[] AIArray;
     public float spawnInterval = 3f;
-    public int maxInstances = 7;
+    public int maxInstances = 2;
 
     private int currentInstances = 0;
 
@@ -16,24 +15,20 @@ public class AISpawner : MonoBehaviour
     {
         InvokeRepeating("SpawnPrefab", 0f, spawnInterval);
     }
+
     void Update()
     {
-        AIArray = GameObject.FindGameObjectsWithTag("Enemy");
+        // Atualize o número de instâncias atuais verificando objetos com a tag "Enemy"
+        GameObject[] AIArray = GameObject.FindGameObjectsWithTag("Enemy");
         currentInstances = AIArray.Length;
     }
 
     void SpawnPrefab()
     {
-
-        if (AIArray.Length < maxInstances)
+        if (currentInstances < maxInstances)
         {
-
             Vector3 randomPosition = RandomNavMeshPosition();
-
-
             Instantiate(prefabToSpawn, randomPosition, Quaternion.identity);
-
-
             currentInstances++;
         }
     }
@@ -52,5 +47,7 @@ public class AISpawner : MonoBehaviour
     public void InstanceDestroyed()
     {
         currentInstances--;
+        // Chame o SpawnPrefab quando uma instância for destruída para tentar instanciar imediatamente
+        SpawnPrefab();
     }
 }

@@ -27,6 +27,7 @@ public class FirstPersonController : MonoBehaviour
     public bool cameraCanMove = true;
     public float mouseSensitivity = 2f;
     public float maxLookAngle = 50f;
+    
 
     // Crosshair
     public bool lockCursor = true;
@@ -131,6 +132,8 @@ public class FirstPersonController : MonoBehaviour
 
     #endregion
 
+    
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
@@ -148,9 +151,12 @@ public class FirstPersonController : MonoBehaviour
             sprintCooldownReset = sprintCooldown;
         }
     }
+    
+    
 
     void Start()
     {
+        Time.timeScale = 1f;
         if(lockCursor)
         {
             Cursor.lockState = CursorLockMode.Locked;

@@ -7,7 +7,7 @@ public class HealthBar : MonoBehaviour
 {
     [SerializeField] BossManager boss;
     public Slider slider;
-    public int health;
+    public int health = 200;
     // Update is called once per frame
     void Update()
     {

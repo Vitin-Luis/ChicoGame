@@ -209,9 +209,9 @@ MonoBehaviour:
   m_HandleRect: {fileID: 0}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 300
+  m_MaxValue: 200
   m_WholeNumbers: 0
-  m_Value: 300
+  m_Value: 200
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -420,11 +420,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
---- !u!20 &194110184 stripped
-Camera:
-  m_CorrespondingSourceObject: {fileID: 1048788993051547688, guid: 1ea57ab27b7fca34d8da63d1b043022e, type: 3}
-  m_PrefabInstance: {fileID: 4195761740709967494}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &271372372
 GameObject:
   m_ObjectHideFlags: 0
@@ -2567,6 +2562,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4195761740641025578, guid: 1ea57ab27b7fca34d8da63d1b043022e, type: 3}
   m_PrefabInstance: {fileID: 4195761740709967494}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1196759428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1196759424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03bfb826fb6bcb444a3fed3f132f068d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HealthBar: {fileID: 2993262}
 --- !u!1001 &1221054199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4075,11 +4083,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ad1f5855a33f0694886cbd301d99cc40, type: 3}
---- !u!4 &1812834172 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4195761741314691578, guid: 1ea57ab27b7fca34d8da63d1b043022e, type: 3}
-  m_PrefabInstance: {fileID: 4195761740709967494}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1893735784
 GameObject:
   m_ObjectHideFlags: 0
@@ -4124,10 +4127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ebbc218714b56d44a2c17db3ca67fbd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 194110184}
-  target: {fileID: 1812834172}
-  distanceToTarget: 90
-  pos: {x: 0, y: 0, z: 0}
 --- !u!1001 &1971952136
 PrefabInstance:
   m_ObjectHideFlags: 0

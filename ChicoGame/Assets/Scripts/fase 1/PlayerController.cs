@@ -136,7 +136,7 @@ public class PlayerController : MonoBehaviour
             Quaternion initialRotation = firePointsL[i].transform.rotation;
             firePointsL[i].transform.Rotate(0f + (currentSpeed * 0.8f), 0f, 0f, Space.Self);
             Rigidbody C = Instantiate(CBall, firePointsL[i].transform.position, firePointsL[i].transform.rotation).GetComponent<Rigidbody>();
-            C.AddRelativeForce(transform.up * 50f, ForceMode.Impulse);
+            C.AddRelativeForce(transform.up * 80f, ForceMode.Impulse);
             flashL[i].Play(); 
             firePointsL[i].transform.rotation = initialRotation;
         }
@@ -150,7 +150,7 @@ public class PlayerController : MonoBehaviour
             Quaternion initialRotation = firePointsR[i].transform.rotation;
             firePointsR[i].transform.Rotate(0f - (currentSpeed * 0.8f), 0f, 0f, Space.Self);
             Rigidbody C = Instantiate(CBall, firePointsR[i].transform.position, firePointsR[i].transform.rotation).GetComponent<Rigidbody>();
-            C.AddRelativeForce(transform.up * 50f, ForceMode.Impulse);
+            C.AddRelativeForce(transform.up * 80f, ForceMode.Impulse);
             flashR[i].Play();
             firePointsR[i].transform.rotation = initialRotation;
         }

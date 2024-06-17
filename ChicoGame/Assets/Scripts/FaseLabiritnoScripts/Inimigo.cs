@@ -10,13 +10,13 @@ public class Inimigo : MonoBehaviour
     private Animator inimigoAnimacao;
     public Transform player;
     private NavMeshAgent agent;
-    private AISpawner spawner;
+    private InimigoSpawner spawner;
 
     private void Start()
     {
         inimigoAnimacao = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
-        spawner = FindObjectOfType<AISpawner>();
+        spawner = FindObjectOfType<InimigoSpawner>();
     }
 
     private void Update()

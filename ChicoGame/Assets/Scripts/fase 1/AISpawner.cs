@@ -30,7 +30,7 @@ public class AISpawner : MonoBehaviour
     {
         AIArray = GameObject.FindGameObjectsWithTag("Enemy");
         currentInstances = AIArray.Length;
-        if (ScoreManager.scoreCount >= 10)
+        if (ScoreManager.scoreCount >= 30)
         {
             fase2 = true;
             SpawnBoss();

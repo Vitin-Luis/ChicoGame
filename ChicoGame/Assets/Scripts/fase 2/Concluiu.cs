@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Concluiu : MonoBehaviour
 {
@@ -17,8 +18,14 @@ public class Concluiu : MonoBehaviour
         timer += Time.deltaTime;
         if (timer >= 2)
         {
-            gameObject.SetActive(false);
-            //loadscene
+            
+            StartCoroutine(WaitAndLoadNextScene());
         }
+    }
+    
+    IEnumerator WaitAndLoadNextScene()
+    {
+        yield return new WaitForSeconds(3); // Espera por 3 segundos
+        SceneManager.LoadScene("RunFase"); // Troca para a cena desejada
     }
 }

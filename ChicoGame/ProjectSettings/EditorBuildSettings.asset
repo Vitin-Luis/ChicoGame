@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
+    path: Assets/Scenes/RunFase.unity
+    guid: a284bd48fafd69145831a9f2174140de
+  - enabled: 1
     path: Assets/Scenes/Fase3.unity
     guid: 2770dec23d12d2a4ab68f814af5742ce
   m_configObjects: {}

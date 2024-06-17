@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
 using UnityEngine;
-using UnityEngine.UI; // Certifique-se de que isso est· incluÌdo para usar UnityEngine.UI.Image
+using UnityEngine.UI; // Certifique-se de que isso estÔøΩ incluÔøΩdo para usar UnityEngine.UI.Image
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManagerRun : MonoBehaviour
 {
@@ -30,7 +31,7 @@ public class GameManagerRun : MonoBehaviour
 
         playerMovement.speed += playerMovement.speedIncreasePerPoint;
 
-        if (score >= 50)
+        if (score >= 10)
         {
             LevelComplete();
         }
@@ -38,10 +39,17 @@ public class GameManagerRun : MonoBehaviour
 
     void LevelComplete()
     {
-        levelCompleteText.text = "NÌvel concluÌdo!";
+        levelCompleteText.text = "N√≠v√©l C√≥nclu√≠d√≥";
         levelCompleteText.gameObject.SetActive(true);
         backgroundImage.gameObject.SetActive(true); // Show the background image
         playerMovement.enabled = false; // Disable player movement
+        StartCoroutine(WaitAndLoadNextScene());
+    }
+    
+    IEnumerator WaitAndLoadNextScene()
+    {
+        yield return new WaitForSeconds(3); // Espera por 3 segundos
+        SceneManager.LoadScene("Fase3"); // Troca para a cena desejada
     }
 
     // Start is called before the first frame update

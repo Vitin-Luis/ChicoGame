@@ -86,7 +86,7 @@ Material:
     - _EnableReflections: 1
     - _Fade: 2.3
     - _FarTilingDistance: 858.2
-    - _FoamBlend: 13.38
+    - _FoamBlend: 7
     - _FoamContrast: 0.373
     - _FoamIntensity: 0.81
     - _FoamSpeed: 0.02
